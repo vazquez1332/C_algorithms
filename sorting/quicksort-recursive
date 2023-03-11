@@ -3,7 +3,8 @@
 
 void charge(int arr[long],int i){
     if (i<long)
-    printf("\n Put the %d number: ",i+1);
+    printf("\n Put the number: "\n);
+    printf("-%d: \n", i+1);
     scanf("%d",&arr[i]);
     charge(arr,i+1);
 } //array charge 
